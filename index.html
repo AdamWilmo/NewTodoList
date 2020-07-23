@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/container.css">
+    <link rel="stylesheet" href="/list.css">
+    <script src="/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/fb07b0d0e2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>Todo List</h1>
+        </header>
+        <section class="section">
+            <div class="section__header">
+                <h2 class="section__header--title">Dodaj nowe zadanie</h2>
+            </div>
+            <div class="section__body">
+                <form action="" class="form js-form">
+                    <input type="text" class="form__input js-input" placeholder="Wpisz treść zadania">
+                    <button class="form__button js-button__add">Dodaj zadanie</button>
+                </form>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__header">
+                <h2 class="section__header--title">Lista zadań</h2>
+            </div>
+            <div class="section__body">
+                <ul class="tasks js-tasks">
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
